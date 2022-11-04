@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ec1a736151ffc3d4399b89156b459bc5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Overwave
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d9570cc293d528348871c2936afe91d8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
