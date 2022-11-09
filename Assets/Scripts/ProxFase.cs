@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class aguaProxFase : MonoBehaviour
+public class ProxFase : MonoBehaviour
 {
     public string fase;
     // Start is called before the first frame update
