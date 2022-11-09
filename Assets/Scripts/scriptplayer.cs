@@ -34,7 +34,7 @@ public class scriptplayer : MonoBehaviour
         if (Input.GetAxis("Horizontal") > 0f) //andando para direita
         {
             anim.SetBool("walk", true);
-            transform.eulerAngles = new Vector3(0f, 0f, 0f); //rotação do personagem
+            transform.eulerAngles = new Vector3(0f, 0f, 0f); //rotaï¿½ï¿½o do personagem
         }
 
         if (Input.GetAxis("Horizontal") < 0f) //andando para esquersa
