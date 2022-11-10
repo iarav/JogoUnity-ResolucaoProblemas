@@ -47,6 +47,9 @@ public class enemy : MonoBehaviour
                 anim.SetTrigger("die");
                 Destroy(gameObject,1f);
             }
+            else{
+                Destroy(col.gameObject);
+            }
             
         }
     }
