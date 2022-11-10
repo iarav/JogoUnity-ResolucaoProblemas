@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8390429884756488086}
   - component: {fileID: 8390429884756488085}
   - component: {fileID: 8390429884756488084}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8390429884756488083}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0041674087, w: 0.99999136}
+  m_LocalRotation: {x: 0, y: 0, z: -0.0041712476, w: 0.9999913}
   m_LocalPosition: {x: 0.887, y: 236.412, z: 0}
   m_LocalScale: {x: 2.9159582, y: 2.9159582, z: 2.9159582}
   m_ConstrainProportionsScale: 0
@@ -177,7 +177,7 @@ MonoBehaviour:
   headPoint: {fileID: 8390429886211469567}
   layer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 2304
 --- !u!58 &8390429884756488084
 CircleCollider2D:
   m_ObjectHideFlags: 0

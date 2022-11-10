@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Borda
   - bolaTinta
+  - Ladder
+  - Platform
   layers:
   - Default
   - TransparentFX
@@ -18,7 +20,7 @@ TagManager:
   - chao
   - cenario
   - borda
-  - 
+  - enemy
   - 
   - 
   - 

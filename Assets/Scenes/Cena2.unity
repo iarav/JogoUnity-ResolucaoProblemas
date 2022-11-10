@@ -4817,7 +4817,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee21db4fdfecbe44e8b0a2933eb9a47c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fase: Fase4
 --- !u!1 &769426738
 GameObject:
   m_ObjectHideFlags: 0
@@ -6920,6 +6919,10 @@ PrefabInstance:
     - target: {fileID: 8390429884756488083, guid: 8f6f5182e52fec54db7c7d0eee638e31, type: 3}
       propertyPath: m_Name
       value: enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390429884756488085, guid: 8f6f5182e52fec54db7c7d0eee638e31, type: 3}
+      propertyPath: layer.m_Bits
+      value: 2304
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f6f5182e52fec54db7c7d0eee638e31, type: 3}
