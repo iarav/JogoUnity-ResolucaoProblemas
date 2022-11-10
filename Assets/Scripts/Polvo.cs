@@ -7,7 +7,7 @@ public class Polvo : MonoBehaviour
     public GameObject bolaTinta;
     public Transform saidaTiro;
     public Transform saidaTiro2;
-    public float Speed = 6;
+    public float Speed = 5;
 
     private bool tiro;
 
