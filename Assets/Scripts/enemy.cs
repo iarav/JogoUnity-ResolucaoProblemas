@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;//biblioteca para manipular cenas
 
 public class enemy : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class enemy : MonoBehaviour
 
     public LayerMask layer;
 
-    
+    public string cena="Cena2";    
 
     // Start is called before the first frame update
     void Start()
@@ -49,6 +50,7 @@ public class enemy : MonoBehaviour
             }
             else{
                 Destroy(col.gameObject);
+                SceneManager.LoadScene(cena);
             }
             
         }
